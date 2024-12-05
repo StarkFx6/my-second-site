@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/girl_and_skatew.png);
+	background-size: cover; 
+	background-position: center; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+.textStyle {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.user {
+    font-size: 20px;
+    font-weight: bold;
+}
+.button {
+	margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.box {
+    display: flex;
+    gap: 10px;
+}
+.rowCasino {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
