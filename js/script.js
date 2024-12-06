@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (middleIcons.every(icon => icon === middleIcons[0])) {
           winCounter++;
           setTimeout(function() {
-            alert(`Вітаємо, ${userName}! Ви виграли! Загальні перемоги: ${winCounter}`)}, 800);
+            alert(`Вітаємо, ${userName}! Ви виграли! Загальні перемоги: ${winCounter}`)}, 500);
       }
   };
   generateButton.addEventListener("click", () => {
